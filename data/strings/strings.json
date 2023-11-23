@@ -1,0 +1,579 @@
+{
+    "starSystems":{
+      "planet_name_hakurei":"Hakurei",
+      "planet_name_kirisame":"Kirisame",
+	    "planet_name_blazing_hell":"Blazing Hell",
+      "planet_name_crino":"Cirno",
+	    "planet_name_inverted_castle":"Inverted Castle",
+
+      "jump_name_gensokyo_jump":"Boundary Passage",
+
+      "entity_name_gensokyo_gate":"Gensoukyou Gate",
+      "entity_name_gensokyo_relay":"Boundary Relay",
+      "entity_name_gensokyo_nav":"Gap Navigation Beacon",
+      "entity_name_gensokyo_sensor":"Illusion Sensor",
+
+      "terrain_name_RoadOfReconsideration":"Road of Reconsideration",
+    },
+
+    "hullMod":{
+      # Util
+      "FM_DescriptionAndEvaluation":"Description and Evaluation",
+      "FM_Instruction":"Manual",
+      "FM_HullModRequireBasicMod":"Only Applicable to Ships with Gensoukyou Manufacture Engineering",
+      "FM_HullModRequireShield":"Cannot be installed to ship without shields",
+      "FM_HullModRequireFighterBay":"Require Hangar Bay",
+      "FM_HullModProblem":"Hullmods Conflict",
+      # Single HullMod
+      "FantasyAliceMod_DAE_0":"Initially a general-purpose system based on remote piloting and AI flight control designed to reduce the loss of fighter pilots, the project was terminated, with only Margatroid-class still making use of it.\n\nThe Time Flow system, which utilized spiritual energy, significantly improves the combat efficiency of fighters when in close proximity to the carrier. Just like the time-flow devices commonly used in Persean Sector, mind burden to the fighter's pilot still exists.\n\nCombat losses have been reduced by the ability of pilot to remotely control fighters from the carrier through spiritual devices. However, according to unconfirmed rumor, in order to use this system the pilot's mind is linked semi-permanently directly to the ship's AI, resulting in [DATA DELETED].",
+      "FantasyAliceMod_DAE_1":"\"In many ways, this is a plan to make everyone happy\" \n\n —— Alice Margatroid [Redacted]",
+      "FantasyAliceMod_HL_2":"loss of crew",
+
+      #"FantasyAmuletMod_HL_0":"个",
+      "FantasyAmuletMod_HL_1":" Second",
+      "FantasyAmuletMod_HL_2":" Energy Damage",
+      "FantasyAmuletMod_PlayerTitle":"Spiritual Charge Effect",
+      "FantasyAmuletMod_PlayerData":"Speed & Manueverability Increased by ",
+      "FantasyAmulet_DAE_0":"Known simply as Dichromatic Lotus Butterfly, this system is considered to be the most successful Spell Framework to date and represents a considerable difference between the current state-of-the-art technology of the persean sector and the technology of Domain-era (or, as the more nosy people perceive it, magical and spiritual powers). Of course, like other exquisite technologies of the past, its quite difficult and complex, and it can only be matched to a Miko.",
+      "FantasyAmulet_DAE_1":"\"For the protectors of dream and tradition, there clearly needs to be a new method to resolve new problems.\" \n\n —— Ibaraki Kasen",
+
+      "FantasyBasicMod_Combat_0_T":"Graze System Active",
+      "FantasyBasicMod_Combat_0_D":"Time Left ",
+      "FantasyBasicMod_Combat_1_T":"Graze System Cooldown",
+      "FantasyBasicMod_Combat_1_D":"Time Left ",
+      "FantasyBasicMod_Combat_2_T":"Graze System Ready",
+      "FantasyBasicMod_Combat_2_D":"Projectile around ship is ",
+      "FantasyBasicMod_I_0":"Generate Small Spell Field",
+      "FantasyBasicMod_I_1":"Spell fields can be linked to eachother to effectively reduce shield damage taken and cost by %s, this can be stacked up to %s and is effective for all ships in the fleet",
+      "FantasyBasicMod_I_2":"Graze System are provided for high density engagement, its useful but dont relies too much on it...",
+      "FantasyBasicMod_SP":"Graze System Details",
+      "FantasyBasicMod_SP_0":"When the count of hostile projectiles in a radius of %s/%s/%s/%s units around the ship is higher than %s, \nthe ship gets a temporary boost in max speed and maneuverability by %s for %s seconds.",
+      "FantasyBasicMod_SP_1":"This Bizarre System is Not Compatible with Safety Overrides",
+      "FantasyBasicMod_DAE_0":"As one of the few early research projects for a cooperative space fleet of the inner and outer boundaries, the basic engineering kit was designed with typical Gensoukyou features, such as an emphasis on firepower consistency and density, a disregard for anti-armor capabilities, and even a threat detection system that seemed to be of little use.\n\nAlthough some systems were included to facilitate coordinated fleets, such as the `Spiritual Field Linking`, a Gensoukyou ship with only a basic set of features may not be as distinctive as one might think.",
+      "FantasyBasicMod_DAE_1":"\"Neither fantasical, nor basic , and definately not a set package\" —— Shameimaru Aya",
+      "FantasyBasicMod_DAE_2":"\"But our engineering have support for the installation of more specialized hullmods!\" \n\n —— Science Book <Basic Space Combat Theory That Even Fairy Can Understand>",
+
+      "FantasyBorderMod_Combat_0_T": "Inter-Gap Module Reimaning Charge",
+      "FantasyBorderMod_Combat_0_D": "Currently at ",
+      "FantasyBorderMod_Combat_1_T": "Next recharge requires ",
+      "FantasyBorderMod_Combat_1_D": " Damage",
+      "FantasyBorderMod_I_0": "The Inter-Gap Flux Linking Module will force the shield to stay open, reducing flux levels by %s and eliminating all hostile projectiles within the threat detection radius.",
+      "FantasyBorderMod_DAE_0": "Despite the general lack of knowledge among the residents of Gensokyo about space warfare, Gensoukyou Manufacture has borrowed several extraordinary designs from the inner side of the barrier. This plugin automatically activates, teleporting projectiles to the inter-gap and making them disappear. However, even now, people from the outside world are not entirely clear whether the so-called \"gap\" is some kind of alternate space or a more bizarre concept in mystical.",
+      "FantasyBorderMod_DAE_1":"\"You can use this as an auto bomb, it just doesnt have a manual option\" \n\n —— A great Youkai Sage",
+
+      "FantasyBulletMod_DAE_0":"Developed by Gensoukyou Manufacture to deal with large targets, this special module uses inner side of the boundaries technology to improve the projectiles and flux grid systems, taking theoretical firing speed to a new level. Despite the sacrifice of projectile flight speed, the project is still considered a success.",
+      "FantasyBulletMod_DAE_1":"\"Now that you mention it, where did those danmaku that went past their max range go after the battle?\" \n\n —— A Gensoukyou captain after just defeating Pather forces",
+      
+      "FantasyKawausoModUnapplicable":"Cannot be installed on capital ships",
+      "FantasyKawausoMod_I_0":"Generates three spherical entities around the ship, known as Kawauso.",
+      "FantasyKawausoMod_I_1":"Each Kawauso EMP arc that strikes any missile or fighters when they enter its %s/%s/%s/%s range, each strike have %s intervals.",
+      "FantasyKawausoMod_I_2":"Each arc inflicts %s/%s/%s/%s energy damage and %s EMP, but generate soft flux equal to %s damage.",
+      "FantasyKawausoMod_I_3":"When installed on cruisers, it adds point defense capabilities to all medium non-missile weapons",
+      "FantasyKawausoMod_DAE_0":"Due to Gensoukyou Manufacture overall weak resistance to heavy fighter swarm, engineers from the inner side of the boundaries designed this peculiar point defense module. Ideally, the system only needs to generate some soft flux to easily nullify nearby fighters and missiles. However, it is evident that when the number of missiles and fighters reaches saturation, a massive amount of soft flux will completely overwhelm the ship's flux conduits.",
+      "FantasyKawausoMod_DAE_1":"\"I will give you an offer you cannot refuse.\" \n\n —— Kitcho Yachie",
+	  "FantasyKawausoMod_DAE_2":"Not Compatible with PD Assault Conversion",
+
+      "FantasyOptionsControlMod_SP":"Affected Negative Effect",
+      "FantasyOptionsControlMod_SP_0":"Reduced the engagement range of all fighters",
+      "FantasyOptionsControlMod_DAE_0":"Embodying the idea of coordinated combat between fighters and carriers, the enhanced mystical system installed on the carrier strengthens the conventional armament of fighter squadrons during battle. Due to various uncontrollable factors, the engagement range of fighter squadrons will be limited to certain degrees.",
+      "FantasyOptionsControlMod_DAE_1":"\"As we know, most important thing in a fleet battle is fire power, but how do we provide carrier with firepower comparable to normal warship?\" \n\n —— Kirisame Marisa",
+
+      "FantasyPlayerMod_Combat_0_T":"Increased Anti-Armor Damage ",
+      "FantasyPlayerMod_Combat_0_D":"Current Anti-Armor Modifier ",
+      "FantasyPlayerMod_DAE_0":"Using a large number of high-frequency impacts to induce a resonance effect, the Resonance Module enhances the efficiency of destroying hardened structures. The resonator can activate and synchronize the resonance intensity with the flux conduits, thereby linearly increasing the armor-piercing force as the flux level rises. While this series of descriptions looks very concise and easy to understand, some of the black box properties behind certain phrases can be felt with careful thought or idle curiosity. However, people are more curious and concerned about its terrifying destructive power when paired with powerful anti-armor weapons.",
+      "FantasyPlayerMod_DAE_1":"\"The bells of Gionji Temple ring out as a testimony to the impermanence of the world.\" \n\n —— Ancient text in realm of man",
+
+      "FantasySageMod_DAE_0":"A specialized fire control system, officially named the Sage's Core but often jokingly referred to as the Cops Core.\n\nThis unique core is designed to enhance Gensoukyou Works fleet's overall suppression capability against small craft. Although it does not match the Integrated Targeting Unit systems performance, its efficiency in dealing with small Pather and Pirate groups has earned it a place in the fleet.",
+      "FantasySageMod_DAE_1":"\"Things will hurt a lot for the naughty childrens now.\" \n\n —— Konpaku Youmu,in a battle in the Gensoukyou",
+
+      "FantasyTraditionalMod_SpecialRequire":"Can only be installed on Destroyers or Frigates",
+      "FantasyTraditionalMod_RangeInstruction":"Range Modification Manuals",
+      "FantasyTraditionalMod_RangeInstruction_0":"Provides a terrifying range bonus for long range engagements against small target",
+      "FantasyTraditionalMod_RangeInstruction_1":"This module directly increases the base range of energy weapons (including beams) for ships. Frigates gain %s units, destroyers gain %s units",
+      "FantasyTraditionalMod_RangeInstruction_2":"Note that after installing this module, for weapons with a range greater than %s units, the excess will be multiplied by %s",
+      "FantasyTraditionalMod_SP":"Additionals Features and Limitation",
+      "FantasyTraditionalMod_SP_0":"This special universal range control system from another world is not compatible with advanced optical hullmods designed for beam weapons",
+      "FantasyTraditionalMod_SP_1":"In exchange for greater adaptability to energy weapons, it is not compatible with Gensoukyou Danmaku Retaining Module",
+      "FantasyTraditionalMod_SP_2":"As a sign, the engine exhaust color of ships with this plugin installed will undergo a certain change",
+      "FantasyTraditionalMod_DAE_0":"An extreme upgrade for small ships, born from the wisdom of another world.\n\nDeveloped with the assistance of some wandering individuals from the inside of the barrier who observed the Pather. Well-received for its easy-to-understand usage.",
+      "FantasyTraditionalMod_DAE_1":"\"Following the old {SC} rules and common sense, we suggest we fly at distance and worry about nothing except aiming and firing\" \n\n —— Kochiya Sanae",
+      "FantasyTraditionalMod_HL_3":"Energy",
+
+      # FantasySpellMod
+      "FantasySpellMod_StatusBarString":"Spiritual Charge",
+      "FantasySpellMod_Des":"Spiritual Charge",
+      "FantasySpellMod_DAE_0":"This is a modified spell framework system that combines cutting-edge scientific technology from the Domain-era with the seemingly absurd metaphysical experience from the inner side of the boundaries. Although it cannot provide any changes in combat performance for the ship itself and is costly and complex in structure, the grand vision it reflects still attracts enough attention from Gensoukyou Manufacture. However, like other experimental projects, its future remains uncertain.",
+      "FantasySpellMod_DAE_1":"\"Does advanced technology look like magic, or are magic just advanced technology?\" \n\n —— Matara Okina",
+
+      # FantasyRumiaMod
+      "FantasyRumiaMod_DAE_0":"The technology to freely camouflages ships to a certain extent in both the phase and normal spaces has always been a dangerous subject in urban legends and mystical stories. Obviously, this strange technology that can obscure the space and matter around the ship into the phase space is no exception.\n\nHowever, here's a bit of knowledge, the name \"Hyakki Yagyou\" actually originated from the Luddic Pathers and Pirates Reputation when engaging this type of ship.",
+      "FantasyRumiaMod_DAE_1":"\"You need good intutiation to prevent yourself from hitting something strange, as you know, except warning from flux system, all we can sense are darkness.\" \n\n —— Nonfiction Novel <Advent from Shadows>",
+
+      # FantasyMirrorProtocolMod
+      "FantasyMirrorProtocolMod_Info_Title":"Yata-no-Kagami Protocol",
+      "FantasyMirrorProtocolMod_Info_Data":"Current Maximum Speed Boost ",
+      "FantasyMirrorProtocolMod_I_0":"System charge will diminish overtime, and it takes %s time to go from full to zero.",
+      "FantasyMirrorProtocolMod_I_1":"The system charges everytime the ship receives beam damage. The charge amount increases with the proportion of beam damage to ships flux dissipation, and for lower-damage beams, the charging rate will be quite slow or even completely unable to charge the system.",
+      "FantasyMirrorProtocolMod_DAE_0": "Restless researchers retaliation against captains who complain that small ships are easily overwhelmed by various beam weapons or DEM. But with this modules, just like Hardened Sheilds, adjusts the ship's surface and shield generator together. Using complex spell circuits and energy conversion systems, it forcefully diverts beam energy to the engine system, enhancing maneuverability and speed.",
+      "FantasyMirrorProtocolMod_DAE_1":"\"Guaranteed hit Danmaku should not exist in a bullet hell game.\" \n\n —— Science Book <Bullet Hell Games,Beginner to Mastery>",
+	  "FantasyMirrorProtocolMod_DAE_2":"Not Compatible with Unstable Injectors",
+
+    },
+
+    "shipSystem":{
+      "FM_BorderControlInfo":"Teleport Carrier's Fighter to Target (Except Bombers)",
+      "FM_ByakurenSystemInfo":"Temporarily Increase Speed & Ships Masses",
+      "FM_CrossBorderInfo":"Teleport",
+      "FM_CursedPd_FloatText":"PD System Failure!",
+      "FM_CursedPd_Target":"% PD Range is Reduced",
+      "FM_CursedPd_Player":"Target PD Range is Reduced by %",
+      "FM_EastWindInfo0":"Divert incoming non-missile projectile",
+      "FM_EastWindInfo1":"Release Danmmaku",
+      "FM_EndLessGallery":"Teleport enemy ships within a certain radius away from your ship",
+      "FM_GazeOfSpectre_FloatText":"Mobility Reduced",
+      "FM_GazeOfSpectre_Target":"% Manueverability & Speed is Reduced",
+      "FM_GazeOfSpectre_Player":"% Target Mobility is Reduced",
+      "FM_MisfortuneAbsorbInfo0":"Friendly Ships Taken Damage is Reduced by ",
+      "FM_MisfortuneAbsorbInfo1":"Taken Damage for Self is Increased by ",
+      "FM_PounceDriveInfo":"Short-Duration Mobility Increase",
+      "FM_ReactoreExcursionInfo0":"Boost Energy Weapon Damage By ",
+      "FM_ReactoreExcursionInfo1":" Weapon Failure Rates ",
+      "FM_ReisenSystem_FloatText":"Rear Warning",
+
+      "FM_SurprisingStrikeInfo1":"Boost Fighters Missile Damage",
+      "FM_SurprisingStrikeInfo2":"Boost Fighters Mobility",
+      "FM_SurprisingStrikeInfo3":"Fighter non-missile Damage is reduced",
+
+
+      "FM_SwordOutInfo0":"Weapong Range -",
+      #"FM_SwordOutInfo1":"装甲和护盾所受伤害降低到",
+      "FM_SwordOutInfo2":"Boost Fire Rates by ",
+      "FM_SwordOutInfo3":"Weapon Flux Cost -",
+
+      "FM_WindGodDriveInfo":"Boost Engine Performance, Phased and Lunge Forward",
+      "FM_BlazingStarInfo":"Extra Velocity in the curent direction of momentum with increased turn rate",
+
+      "FM_PhaseRumiaInfo0":"Time Flow Faster",
+      "FM_PhaseRumiaTitle1":"Phase Stability",
+      "FM_PhaseRumiaInfo1":"Maximum Speed is Unnaffected",
+      "FM_PhaseRumiaTitle2":"Phase Disturbance",
+      "FM_PhaseRumiaInfo2":"Maximum Speed is Reduce to ",
+
+      "FM_FluxBurnInfo0":"Enemy Fighter Top Speed is reduced by ",
+      "FM_FluxBurnInfo1":"Hard & Soft Flux dissipation rate increased to ",
+      
+
+    
+    },
+
+    "misc":{
+      "FM_SpellFieldEffect_T":"Spell Field Linking",
+      "FM_SpellFieldEffect_D":"Current Shield taken damage is ",
+
+      "FM_CaptureWeb_T":"Blight Markers",
+      "FM_CaptureWeb_D":"Increase damage to Armor",
+
+      "FM_addRating":"Evaluation Points have increased by %s, you currently have %s Evaluation Points and have accumulated %s Evaluation Points.",      
+      "FM_RelRise":"Relationship Rise",
+      "FM_RelDec":"Relationship Decline",
+      "FM_Id":"fantasy_manufacturing",
+    },
+
+    "ungp":{
+      "FM_FateOfSixtyYears_Desc":"Fate of Sixty Years"
+    },
+
+    "event":{
+
+      # Util
+      "FM_Button_Accept":"Accept",
+      "FM_addDays_After":"Passed",
+      "FM_addDays_Remain":"Remaining",
+
+      #Reimu Event
+      "FM_ReimuBarEvent_BarScene":"A gorgeously dressed girl is flipping through rare paper documents in the corner of the bar. The red and white attire gives off a surreal feel. From her expression, it seems like she's troubled about something.",
+      "FM_ReimuBarEvent_BarScene_Option":"Attempt to approach and talk to the girl",
+
+      "FM_ReimuBarEvent_INIT_TEXT_0":"You gathered your companions who came with you to the bar in the Gensoukyou Manufacture Control Zone, including Tokiko, a reserve ensign who has been accompanying you on recent missions to gather information on planets. You prepare to approach the gorgeously dressed red and white figure.",
+      "FM_ReimuBarEvent_INIT_TEXT_1":"Unexpectedly, receiving your message and meeting up, you notice that Tokiko is different from usual. Despite her apparent restraint, the faint anger and resentment, along with the restless crimson wings, suggest that this usually calm winged girl is currently not okay.",
+      "FM_ReimuBarEvent_INIT_TEXT_2":"However, this piques your curiosity, as Tokiko's unusual state indicates that the target might have high potential value.",
+      "FM_ReimuBarEvent_INIT_ANSWER":"Ask Tokiko if she knows about the girl in red and white.",
+
+      "FM_ReimuBarEvent_ANSWER_TEXT_0":"\"Personally, I'd rather not answer that question.\"",
+      "FM_ReimuBarEvent_ANSWER_TEXT_1":"The faintly leaked resentment, along with a complex emotion you haven't seen before, is compressed into this sentence.",
+      "FM_ReimuBarEvent_ANSWER_TEXT_2":"\"But since I've received a lot of care from you... I'll explain this time.\"",
+      "FM_ReimuBarEvent_ANSWER_TEXT_3":"Then,acted like a proper guide and begin her explanation, still carrying the complex emotion with ther.",
+      "FM_ReimuBarEvent_ANSWER_TEXT_4":"\"She's a dangerous individual, she disrupted... sorry, maintained the order of my homeland. She's a human but possesses youkai-like physical qualities and abilities, almost like the ability to leap horizontally as if flipping a page— though its not like she can use it outside of the boundary.\"",
+      "FM_ReimuBarEvent_ANSWER_TEXT_5":"\"Besides that, she seems to be inexplicably popular with others. As for the rest, let me think... she's just a somewhat annoying shrine maiden.\"",
+      "FM_ReimuBarEvent_ANSWER_TEXT_6":"Although she sseems to be vaguely grumpy, her narration maintains her usual style—clear and to the point.",
+      "FM_ReimuBarEvent_ANSWER_CONTACT_1":"Thank Tokiko for the information and proceed to contact the red and white shrine maiden.",
+      "FM_ReimuBarEvent_ANSWER_LEAVE":"Leave and reconsider whether to make contact",
+
+      "FM_ReimuBarEvent_CONTACT_1_TEXT_0":"You bring Tokiko to the booth where the shrine maiden is. Naturally, you sit down. At the same time, the red and white shrine maiden with a large red bow behind her, and a pretty face, shifts her gaze from the documents to your group, scrutinizing.",
+      "FM_ReimuBarEvent_CONTACT_1_TEXT_1":"Before you have a chance to examine the shrine maiden's attire, the girl in red and white, with a puzzled and bewildered look, speaks:",
+      "FM_ReimuBarEvent_CONTACT_1_TEXT_2":"\"Sorry, uh... I've never seen you two before. If you need help, I can't leave right now. Can you wait?\"",
+      "FM_ReimuBarEvent_CONTACT_1_CONTACT_2":"\"On the contrary, we are here to assist you. As long as the agreement is reasonable.\"",
+
+      "FM_ReimuBarEvent_CONTACT_2_TEXT_0":"The shrine maiden in red and white is slightly shocked by your words.",
+      "FM_ReimuBarEvent_CONTACT_2_TEXT_1":"\"Reasonable agreement means that there won't be any fees depending on the situation, and other forms of payment can be arranged?\"",
+      "FM_ReimuBarEvent_CONTACT_2_TEXT_2":"In the span of a sentence, the shrine maiden quickly transforms from the previous annoyance to a rather positive attitude.",
+      "FM_ReimuBarEvent_CONTACT_2_TEXT_3":"From this speech and transformation, you can clearly analyze that the girl in front of you might be in a financially tight situation, which is not good news for a mercenary captain.",
+      "FM_ReimuBarEvent_CONTACT_2_TEXT_4":"But from another perspective, helping such a girl is still a good thing, especially considering the low probability of a for there to be a high ranking fleet officer with the apperance of a 17 year old appears to order you eliminate the Remnant fleet. Also, the shrine maiden herself, as mentioned by Tokiko, doesn't seem to be a dangerous person.",
+      "FM_ReimuBarEvent_CONTACT_2_TELL_STORY_1":"\"Indeed, what are your thoughts on this?\"",
+
+      "FM_ReimuBarEvent_TELL_STORT_1_TEXT_0":"After hearing these words, the red and white shrine maiden visibly relaxed.",
+      "FM_ReimuBarEvent_TELL_STORT_1_TEXT_1":"\"Well, it's not a very difficult problem to solve, actually.\"",
+      "FM_ReimuBarEvent_TELL_STORT_1_TEXT_2":"\"Going direct to the solution part, I am currently looking for an independent fleet that can freely explore the sector. They should be able to take me to check on the recent whereabouts of those old friends who have disappeared, with no time constraints.\"",
+      "FM_ReimuBarEvent_TELL_STORT_1_TELL_STORY_2":"\"This sounds a bit complicated, but it's not a difficult matter, and the required funds won't be that much.\"",
+
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_0":"The expression of the red and white girl gradually became more complex..",
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_1":"\"Yes, that's exactly why...\"",
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_2":"Next, she took a deep breath and solemnly spoke:",
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_3":"\"Right now, I don't have a single credits on me, so...\"",
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_4":"\"Cough...\"",
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_5":"Just as you were about to contemplate this outrageous offer, an unexpected voice interrupted your thoughts. Turning around, you found Tokiko, who had been observing the negotiations, trying to suppress her laughter by covering her mouth.",
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_6":"\"Why are you laughing at?\"",
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_7":"The interrupted shrine maiden seemed somewhat displeased.",
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_8":"\"Sorry, sorry. I just didn't expect Miss Hakurei, the shrine maiden of Gensokyo, to have to come to the outside world, and...\"",
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_9":"\"Oh dear, it seems that the youkai without the Great Hakurei Barrier's constraint have really gotten full of themselves...\"",
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_10":"However, for the captains in the Persean Sector, such interesting interactions between girls have proven intesting in a unique way. Moreover, you can feel that the current situation is still within the scope of daily chatter.",
+      "FM_ReimuBarEvent_TELL_STORT_2_TEXT_11":"But is it really okay to leave it alone?",
+      "FM_ReimuBarEvent_TELL_STORT_2_TELL_STORY_3A":"Stay silent but observe the two more carefully.",
+      "FM_ReimuBarEvent_TELL_STORT_2_TELL_STORY_3B":"Although you are very interested in the subsequent development, try to make these two calm down.",
+
+      "FM_ReimuBarEvent_TELL_STORT_3A_TEXT_0":"You calm your mind and appreciate the subtle atmosphere between the two lovely girls. However, not long after, whether due to financial constraints or a renewed realization that she is the one seeking help, the red and white shrine maiden, wearing a helpless expression, gave in.",
+      "FM_ReimuBarEvent_TELL_STORT_3A_TEXT_1":"Then, with a resigned expression, the red and white shrine maiden, after some thought, uttered these words.",
+      "FM_ReimuBarEvent_TELL_STORT_3A_TEXT_2":"\"Ugh, I seem to remember who you are.\"",
+      "FM_ReimuBarEvent_TELL_STORT_3A_TEXT_3":"\"Yes, and then you even stole my book...\"",
+      "FM_ReimuBarEvent_TELL_STORT_3A_TEXT_4":"\"Oh right, and then you got beaten up by that black and white person. Oh my, should have mentioned that earlier...\"",
+      "FM_ReimuBarEvent_TELL_STORT_3A_TEXT_5":"\"And whose fault do you think that is?!\"",
+      "FM_ReimuBarEvent_TELL_STORT_3A_TEXT_6":"\"Ugh, but you see, as a shrine maiden, driving away youkai is obviously part of my job. And besides,You broke the door of the item shop, so aren't I just solving the problem in advance? Uh, so can't you say I did pretty well?\"",
+      "FM_ReimuBarEvent_TELL_STORT_3A_TEXT_7":"\"...Talking about this doesn't help at all.\"",
+      "FM_ReimuBarEvent_TELL_STORT_3A_TEXT_8":"So, the winged girl, who had a somewhat smug expression due to her upper hand in the earlier confrontation, now wore a helpless and speechless look after this second round of conflict",
+      "FM_ReimuBarEvent_TELL_STORT_3A_TEXT_9":"On the other hand, looking at the relaxed but confused expression on the red and white shrine maiden's face, it seems she was not aware of the impact of her words on Tokiko.",
+      "FM_ReimuBarEvent_TELL_STORT_3A_TEXT_10":"In any case, the fantasy comedy on this side seems to have come to an end.",
+
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_0":"Sometimes, the more complicated the situation, the more you need to break it with a simple approach.",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_1":"You patted the restless wings of Tokiko beside you and then, quite directly, asked this winged girl who had become confused and surprised, and the red and white shrine maiden on the opposite side, a question: What kind of grudge do you two have from before?",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_2":"The effect was obvious. Tokiko put on a helpless expression of \"not now,\" and the shrine maiden on the opposite side seemed to breathe a sigh of relief.",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_3":"\"Well, let me explain this thing in more detail...\"",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_4":"Although still somewhat unwilling, the winged girl next to you quickly picked up the topic.",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_5":"\"Although this red and white one seems to have completely forgotten me, I won't forget this unreasonable and Violent woman.\"",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_6":"\"Violent? Wait, I...\"",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_7":"\"This violent maniac attacked me from behind when I was quietly reading, took away my book without returning it or apologizing, and even instigated others to bully me!\"",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_8":"\"Oh, I know, you are from that time...\"",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_9":"\"To think that a law enforcer like this would behave so recklessly in the village during broad daylight! What a disgrace! So, my dear Commander, it's clear that such a rude person is not worth caring about, so...\"",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_10":"\"Ah, I apologize, really... let's not dwell on the past, and let's negotiate on how to get me out of here first!\"",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_11":"So, after being forced to remember her actions and being scolded and threatened by the victim full of resentment, the shrine maiden in front of you finally remembered what she had to do.",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_12":"On the other hand, you tried to ignore the strange tone that Tokiko used in her narration and organized your thoughts to prepare for renegotiation.",
+      "FM_ReimuBarEvent_TELL_STORT_3B_TEXT_13":"In any case, the fantasy comedy on this side seems to have come to an end.",
+
+      "FM_ReimuBarEvent_TELL_STORT_3AB_DEAL_1":"resume the negotiation on the matter of the Hakurei shrine maiden boarding",
+
+      "FM_ReimuBarEvent_DEAL_1_TEXT_0":"Thanks to the strange scenario drama earlier, the current negotiation atmosphere seems to have lightened a bit.",
+      "FM_ReimuBarEvent_DEAL_1_TEXT_1":"The current issue is that Miss Hakurei's request is a rather long-term passenger escort mission for your fleet. However, it appears that the expected credits to be earned are lower than your estimated minimum. Considering your identity as an independent fleet commander and mercenary, you want this apprently fantastical and romantic girl get a sense of realty.",    
+      "FM_ReimuBarEvent_DEAL_1_DEAL_2":"\"So, besides credits, what can you provide as collateral?\"",
+
+      "FM_ReimuBarEvent_DEAL_2_TEXT_0":"Without hesitation, the red and white shrine maiden gave a shocking reply.",
+      "FM_ReimuBarEvent_DEAL_2_TEXT_1":"\"Drive away those guys with red skulls painted on the spaceship?\"",
+      "FM_ReimuBarEvent_DEAL_2_TEXT_2":"To prevent misjudgment, you once again looked over the red and white shrine maiden in front of you. But, as with the previous results, she still appeared to be just a girl wearing a large red bow, dressed in a gorgeous shrine maiden outfit --just like the usual Tokiko, she didn't seem like someone ready for combat.",
+      "FM_ReimuBarEvent_DEAL_2_TEXT_3":"\"Oh, right, speaking of which, before leaving here, some outsiders in uniforms made me undergo some kind of training... because that old guy insisted I go, and since the activity was quite interesting, I played with them for over ten days... and then they gave me this.\"",
+      "FM_ReimuBarEvent_DEAL_2_TEXT_4":"As you continued to contemplate new explanations and clarifications, the red and white shrine maiden pulled out the paper file she had put away earlier and handed it over to you.",
+      "FM_ReimuBarEvent_DEAL_2_TEXT_5":"Almost entirely anticipating a situation like an ability investigation or an interview, this document detailed almost everything that this red and white girl could accomplish in fleet combat, providing a detailed explanation of her current abilities as a fleet officer. And given that it came from the Gensoukyou Manufacture Cadets Academy, its reliability is quite guaranteed.",
+      "FM_ReimuBarEvent_DEAL_2_TEXT_6":"It seems like you've once again picked up a peculiar girl with a fantastic appearance and unexpectedly strong real-world abilities.",
+      "FM_ReimuBarEvent_DEAL_2_DEAL_3":"\"How about serving as a fleet commander in my fleet as collateral?\"",
+
+      "FM_ReimuBarEvent_DEAL_3_TEXT_0":"\"Ugh, I don't really care, as long as there's a place to go, and not boring.\"",
+      "FM_ReimuBarEvent_DEAL_3_TEXT_1":"The shrine maiden seems completely indifferent to this.",
+      "FM_ReimuBarEvent_DEAL_3_TEXT_2":"\"I was originally worried about the problems after the loss of the barrier, but as a result, all those youkai and humans just went to experience the outside world one by one... and it's so dangerous outside!\"",
+      "FM_ReimuBarEvent_DEAL_3_TEXT_3":"\"Although I really wanted to stay at the shrine... it's too boring without anyone coming! \"",
+      "FM_ReimuBarEvent_DEAL_3_TEXT_4":"The atmosphere seems to have returned to the less realistic side. It seems that Miss Shrine Maiden is quite concerned about the friends she claimed to have.",
+      "FM_ReimuBarEvent_DEAL_3_TEXT_5":"As you reconsider whether this is morally appropriate and safe, Tokiko casually interjects:",
+      "FM_ReimuBarEvent_DEAL_3_TEXT_6":"\"A very viable solution, after all, this strange shrine maiden has almost the ability to nullify any crisis with her intuition and luck, not kidding.\"",
+      "FM_ReimuBarEvent_DEAL_3_TEXT_7":"Sounds bullshit, but you can inexplicably feel the truth in it.",
+      "FM_ReimuBarEvent_DEAL_3_TEXT_8":"\"Moreover, Commander-san is doing quite well in trying to ensure the safety of his companions..... within the scope of his abilities.\"",
+      "FM_ReimuBarEvent_DEAL_3_TEXT_9":"\"But many times, due to command and weapon issues, losses are still greater than expected. You should be more careful in the future, okay?\"",
+      "FM_ReimuBarEvent_DEAL_3_TEXT_10":"It seems that Tokiko is still very serious about these matters.",
+      "FM_ReimuBarEvent_DEAL_3_TEXT_11":"Thanks to this winged girl's analysis, the two of you seem to be more in agreement with the choice you just made.",
+      "FM_ReimuBarEvent_DEAL_3_FINAL":"Thank Tokiko for her generosity and assistance, and proceed with the final procedures",
+
+      "FM_ReimuBarEvent_FINAL_TEXT_0":"As everything comes to a close, you suddenly realize you forgot to ask the red and white shrine maiden's name.",
+      "FM_ReimuBarEvent_FINAL_TEXT_1":"\"Hmm? Speaking of which, it seems like that's the case, but because it's tiring and troublesome...\"",
+      "FM_ReimuBarEvent_FINAL_TEXT_2":"Just as she was about to say \"find out yourself,\" the shrine maiden stops, pausing for a moment.",
+      "FM_ReimuBarEvent_FINAL_TEXT_3":"\"But considering that we'll be getting along in the future, I should be serious about it.\"",
+      "FM_ReimuBarEvent_FINAL_TEXT_4":"\"I am Hakurei Reimu, the shrine maiden of the Hakurei Shrine.\"",
+      "FM_ReimuBarEvent_FINAL_TEXT_5":"The girl's smile puts a period on this strange encounter.",
+      "FM_ReimuBarEvent_FINAL_LEAVE":"end",
+
+      #Tokiko Event (Bar)
+      "FM_TokikoBarEvent_BarScene":"A figure, concealing its face and form under a hood and cloak, is wandering back and forth indoors, seemingly evading something. The gradually approaching commotion confirms that a pursuit is about to unfold. At a certain moment, you can feel the anxious gaze of the wanderer.",
+      "FM_TokikoBarEvent_BarScene_Option":"Signal the wanderer with your eyes, inviting them into your room",
+
+      "FM_TokikoBarEvent_INIT_TEXT_0":"The figure under the hood and cloak hesitated for a moment but then decisively walked towards your location. However, at this moment, the pursuers also noticed their target and initiated the capture before you could provide shelter. Observing the pursuers, you notice Luddic Pather tattoos and insignias on some members.",
+      "FM_TokikoBarEvent_INIT_TRY_TO_HELP":"Indicate to your subordinates at other locations in the bar to try to delay the Luddic Pather pursuers",
+
+      "FM_TokikoBarEvent_TRY_TO_HELP_TEXT_0":"Your subordinates successfully hindered the Pather pursuers without causing chaos, allowing the wanderer to enter your room.",
+      "FM_TokikoBarEvent_TRY_TO_HELP_TEXT_1":"The Luddic Pather pursuers, now back to their senses, show evident reluctance, pacing outside the room's shielding force field. However, the rescued person, no matter how you question or signal, remains silent, maintaining the hooded and cloaked appearance. Frustrated, you have to shift your focus back to the Luddic Pather members' actions.",
+      "FM_TokikoBarEvent_TRY_TO_HELP_TEXT_2":"After analyzing the intel provided by the subordinates responsible for monitoring outside the booth, you realize that for Luddic Pather members who have been deep within the Gensoukyou Manufacture Fleet territory for a long time, a bribe of approximately %s credits could temporarily send them away.",
+      "FM_TokikoBarEvent_TRY_TO_HELP_TEXT_3":"Even without spending funds, you are confident that you can wait a while longer to make the pursuers leave. However, whether the rescued person will face another predicament in the next moment is uncertain.",
+      "FM_TokikoBarEvent_TRY_TO_HELP_NEED_CREDITS":"Clearly, the funds currently at your disposal are not enough to directly dismiss them.",
+      "FM_TokikoBarEvent_TRY_TO_HELP_DECIDE":"Allocate the corresponding amount of credits, step out of the room, and negotiate directly with the Pather members",
+      "FM_TokikoBarEvent_TRY_TO_HELP_LEAVE":"Continue waiting until the Luddic Pather members leave",
+
+      "FM_TokikoBarEvent_LEAVE_0":"As you expected, the Luddic Pather members left after a while. However, you never obtained any information from the mysterious rescued person. Given the situation, you release the mysterious individual after a brief sigh. But evidently, the Luddic Pather members won't give up easily.",
+
+      "FM_TokikoBarEvent_DECIDE_TEXT_0":"Facing the infuriated Pather members, you display a shocking level of calmness and foresight, successfully persuading these lower-level personnel to admit that sometimes practical credits are more useful than grand ideals.",
+      "FM_TokikoBarEvent_DECIDE_TEXT_1":"After resolving this threat, you redirect your attention to the mysterious rescued person. At this moment, with the pursuers gone, the rescued person finally speaks:",
+      "FM_TokikoBarEvent_DECIDE_TEXT_2":"\"Thank you...\"",
+      "FM_TokikoBarEvent_DECIDE_TEXT_3":"A quite recognizable female voice enters your ears. Based on this, you quickly and roughly estimate the biological age of the individual: it seems this person has just come of age at most. Combining this with the observed behavior and the absence of bio-geneticals modification, you instinctively think: this is just another ordinary civilian girl longing for space opera-like adventures, fantasizing about the love and hatred stories between fleets captains. After a brief contemplation, you decide to show a bit of your own charm, escorting this girl out of this troublesome place, leaving her with a small romantic memory before ending it all.",
+      "FM_TokikoBarEvent_DECIDE_TEXT_4":"However, just as you muster some effort to force out a mature and savvy old-captain-like smile and turn to address the girl, you suddenly notice something unusual.",
+      "FM_TokikoBarEvent_DECIDE_TEXT_5":"The girl, gradually calming down from anxiety, has slightly relaxed the hood's concealment, swiftly surveying her surroundings in a manner familiar to fleet captains. The silver and blue-violet hair partially revealed due to the loss of some cover sparks a new curiosity within you. While there are indeed many 'humans' with such atypical characteristics participating in various aspects of production and life within the Gensoukyou Manufacture Fleet, the role is not commonly seen in situations related to fleets and space. But this additional possibility, coupled with her earlier displayed fleets captain-like alertness, makes you rethink.",
+      "FM_TokikoBarEvent_DECIDE_CONTACT_1":"\"Let me guess, the intelligence work of Gensoukyou Manufacture this time doesn't seem as excellent as before?\"",
+      "FM_TokikoBarEvent_DECIDE_LEAVE":"\"A beautiful lady like you shouldn't casually approach a place like this. If you don't mind, allow me, for the time being, to escort you from a hero to a gentleman?\"",
+      "FM_TokikoBarEvent_DECIDE_LEAVE_TIP":"Indulging in momentary heroics might hinder the bigger picture",
+
+      "FM_TokikoBarEvent_LEAVE_1_P0":"The girl hesitated for a moment but quickly regained composure.",
+      "FM_TokikoBarEvent_LEAVE_1_P1":"\"So, this time, I'll trouble you, Captain.\"",
+      "FM_TokikoBarEvent_LEAVE_1_P2":"As expected, the response put your mind at ease. It seems the other party merely wanted to experience the atmosphere of a space opera, accidentally crossing paths with the Luddic Pathers.",
+      "FM_TokikoBarEvent_LEAVE_1_P3":"The subsequent events proceeded normally. Although you're not sure if you truly acted like a gentleman, you still took the mysterious girl's hand and led her out of the bar. Returning outside, the setting sun created a romantic atmosphere, and you took advantage of it to bid farewell to the girl, attempting to leave behind an image of a mercenary, unbound, free, and legendary.",
+      "FM_TokikoBarEvent_LEAVE_1_P4":"Although you never saw the girl's true face, which is a bit regrettable, this is likely the romance and tenderness unique to fleets captains.",
+
+      "FM_TokikoBarEvent_CONTACT_1_TEXT_0":"\"Indeed, the instincts of an outer world captain are quite accurate.\"",
+      "FM_TokikoBarEvent_CONTACT_1_TEXT_1":"There was no expected panic from the other party. Instead, they gave a rather affirmative reply, leaving you slightly shocked. A strange sense of tension accompanied by excitement gradually surfaced in your heart.",
+      "FM_TokikoBarEvent_CONTACT_1_TEXT_2":"While you were rapidly contemplating, you didn't realize that the girl was removing the disguise of the hood and cloak. When you snapped back to reality, the previously hidden figure and face were fully revealed before you.",
+      "FM_TokikoBarEvent_CONTACT_1_TEXT_3":"Though prepared, the delicate features and red eyes under the blue and white short hair still made you marvel. The well-designed dress and knee-high boots hinted at a classical style with a touch of elegance. However, the most noticeable aspect remains the pair of wings composed of red and white feathers behind the girl. These wings, along with the wing-like feathers and horns on the girl's head, unmistakably indicate that she is far from the typical human in common knowledge.",
+      "FM_TokikoBarEvent_CONTACT_1_TEXT_4":"For a fleets captain, the traditional beauty and dreamy aura emanating from the smiling girl undoubtedly have tremendous appeal. However, just before your brain shuts down due to this, new thoughts and questions pull you back to the sector.",
+      "FM_TokikoBarEvent_CONTACT_1_TEXT_5":"With the charming appearance of the girl, coupled with her earlier attempt to divert attention through disguise, and after confirming her connection to the Gensoukyou Manufacture Fleet, you have new considerations about her identity. If your assumptions are correct, perhaps you can obtain some valuable information here.",
+      "FM_TokikoBarEvent_CONTACT_1_CONTACT_2":"\"So, were you tracked by the Luddic Path due to your agent status?\"",
+
+      "FM_TokikoBarEvent_CONTACT_2_TEXT_0":"\"If the target is information related to the Gensoukyou Manufacture, then everything I have here is almost identical to what you have on hand, after all, I am not a true intelligence operative.\"",
+      "FM_TokikoBarEvent_CONTACT_2_TEXT_1":"At a certain moment, you sensed a hint of helplessness and frustration from the girl's expression, but it quickly disappeared.",
+      "FM_TokikoBarEvent_CONTACT_2_TEXT_2":"\"Although, under the current circumstances, I did attract more attention than usual in order to obtain some information related to the Luddic Path, my primary role is still a conventional fleet commander.\"",
+      "FM_TokikoBarEvent_CONTACT_2_TEXT_3":"\"But... there is a special operation plan that will be executed soon here. Although it's a plan that is useless to outsiders, as a token of gratitude for your help this time, how about I completely show it to you?\"",
+      "FM_TokikoBarEvent_CONTACT_2_TEXT_4":"Everything happened suddenly, and a PAD with the Gensoukyou Manufacture logo appeared on the table. Following that, before you could answer, you were astonished as the girl skillfully opened the holographic demonstration function of the PAD, naturally beginning to explain, just like those senior officers who often assign sensitive tasks to independent fleets.",
+      "FM_TokikoBarEvent_CONTACT_2_TEXT_5":"\"Don't worry, they probably never thought of letting me complete this mission...\"",
+      "FM_TokikoBarEvent_CONTACT_2_BEFORE_BATTLE_1":"While appreciating the girl's serious working posture, you concentrate most of your attention on her plan",
+
+      "FM_TokikoBarEvent_BEFORE_BATTLE_1_TEXT_0":"\"Generally speaking, this mission is quite simple: independently plan the fleet composition, draw combat ships from regular patrol fleets to form a small independent fleet. I will command this force to suppress various Luddic fleets around the Inverted Castle within half a month, maintaining trade routes, supply and maintenance, and actively providing medical support to personnel. However...\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_1_TEXT_1":"The girl sighed and continued:",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_1_TEXT_2":"\"Although the higher-ups seemed to have given me considerable fleet deployment authority this time based on my academic achievements, apart from this logistical support for the fleet, all other auxiliary resources are pitifully scarce, especially in terms of intelligence.\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_1_TEXT_3":"\"As you said, the enemy intelligence I received this time is almost zero. I don't think it's intentional on their part. In fact, recent Luddic activities have become more organized and unpredictable, both in space and on the ground. This means that the risks of this mission are quite significant.\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_1_TEXT_4":"\"However, in reality, regular fleet patrols have already eliminated the threat of Luddic ships to a considerable extent. Continuing to deploy small fleets for this suppression mission will undoubtedly increase the risk.\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_1_TEXT_5":"\"So, they've sensibly left me an exit route. Just writing a simple line to abandon this mission will allow me to return to normal.\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_1_TEXT_6":"\"p to this point, I think you can see that the real purpose of giving me this mission is to ask me to retreat, right?\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_1_BATTLE_2":"\"But i still made a complete battle plan for this mission\"",
+
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_0":"\"Because I don't want to compromise with these unreasonable people here.\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_1":"In an instant, you felt an unexpectedly fluctuation in the girl's emotions.",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_2":"\"Originally, I just wanted to study conveniently like before, understand the history and knowledge of the outside world. However, the school, the humans from above—well, and that old hag, forcibly pushed me into the Command Department...\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_3":"The girl, now composed, began to speak in a plain and simple tone, but you could still sense a slight dissatisfaction.",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_4":"\"However, after graduation, I still didn't want to be bound here...\" The girl's expression turned into a wry smile.",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_5":"\"So when I applied to leave, they gave me this problem. If I can't solve it, I can't leave naturally.\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_6":"\"But, I won't be repeatedly sent away by these opponents without reason...\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_7":"This time, you felt she was visibly getting excited, and her wings behind her began to flutter slightly.",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_8":"\"Always encountering these unreasonable people is extremely unpleasant! Just like that red girl who snatched my book a long time ago... or not that long ago, well, whatever. In any case, it's the red girl who didn't listen to reason!\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_9":"he girl showed a completely different temperament from before, a kind of indescribable excitement.",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_10":"\"After all, if conditions don't exist, you have to create them. So, in order to successfully solve this problem and make the adults above accept my withdrawal, I've been playing the role of a professional intelligence officer from scratch for some time now...\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_11":"\"However...\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_12":"The visible heavy atmosphere made you guess that she had suffered quite a bit along the way. But it didn't last long.",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_13":"\"This period of work is indeed troublesome,\" she sighed lightly, \"but in the end, now, with your help, I can finally hold on until the plan is implemented.\"",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_14":"The girl showed a smile again, which made you feel a strange sense of relief. Although you didn't get the intelligence you expected, you had some new ideas.",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_TEXT_15":"The identity of an independent fleet commander and the competitive spirit that comes with it made you interested in the girl's personal combat capabilities. You were very curious whether this seemingly unusually cute recent graduate of the Cadet Academy could really handle such a big responsibility, as she claimed.",
+      "FM_TokikoBarEvent_BEFORE_BATTLE_2_STORY_BATTLE":"\"Your plan looks good, but I think your fleet composition scheme is not ideal\"",
+
+      "FM_TokikoBarEvent_STORY_BATTLE_TEXT_0":"\"Hmm?\"",
+      "FM_TokikoBarEvent_STORY_BATTLE_TEXT_1":"As expected, the inadvertently revealed competitive personality of the girl surfaced, perhaps quite a bit, and was triggered.",
+      "FM_TokikoBarEvent_STORY_BATTLE_TEXT_2":"\"It seems Commander is quite experienced in commanding. If I could have a friendly simulated battle with such an opponent, it would undoubtedly be beneficial for the upcoming operational plan.\"",
+      "FM_TokikoBarEvent_STORY_BATTLE_TEXT_3":"Although the girl still maintained a smile, you could feel the continuous gunpowder between the two.",
+      "FM_TokikoBarEvent_STORY_BATTLE_TEXT_4":"However, as an independent fleet commander, you felt that your command experience and combat skills would give you an advantage in a battle against someone who, at most, was just a recent graduate of the Cadets Academy.",
+      "FM_TokikoBarEvent_STORY_BATTLE_BATTLE_END":"Regardless of the outcome, you agreed to the request for a simulated battle and assembled a fleet you believed to be powerful according to the rules, entering the simulated battle",
+
+      "FM_TokikoBarEvent_BATTLE_END_TEXT_0":"egardless of the result, at least you experienced the girl's competitiveness firsthand.",
+      "FM_TokikoBarEvent_BATTLE_END_TEXT_1":"The fleet meticulously prepared by the girl was impressive, with ship configurations and tactics that could almost be considered top-notch for this level of fleet engagement. Her demonstrated combat skills also made you somewhat excited: although not in a real battlefield, achieving this level in a simulated battle showed she could handle herself.",
+      "FM_TokikoBarEvent_BATTLE_END_TEXT_2":"Next, you turned your gaze back to the girl. She seemed somewhat satisfied with the battle just now. Although her expression still maintained a smile, the restless wings behind her formed a sharp contrast to the previous situation, making her look very cute. This made you sigh in your heart. Perhaps those youkai from urban legends, manipulating people's hearts with extraordinary charm, achieve it with this endearing quality, step by step captivating humans.",
+      "FM_TokikoBarEvent_BATTLE_END_TEXT_3":"Quickly filtering out the strange thoughts in your mind, you began to think about how to persuade this dream-like girl to join.",
+      "FM_TokikoBarEvent_BATTLE_END_LAST":"\"Miss, in my view, if your goal is a carefree life, then joining the independent fleet as an officer is also a choice. And coincidentally, my fleet currently needs a capable captain like you\"",
+
+      "FM_TokikoBarEvent_LAST_TEXT_0":"Although you tried to reach an agreement like an experienced old mercenary, the other party seemed to completely misunderstand this point.",
+      "FM_TokikoBarEvent_LAST_TEXT_1":"\"Hmm, if that's the case, I think I still need to wait until after this mission to give a response?\"",
+      "FM_TokikoBarEvent_LAST_TEXT_2":"It seems the other party has made up their mind to follow the procedure. After fully experiencing the girl's initiative, you also understand that patient waiting might be the only choice.",
+      "FM_TokikoBarEvent_LAST_LEAVE":"To leave a good impression, you try to bid farewell to her like a gentleman",
+
+      "FM_TokikoBarEvent_LEAVE_2_TEXT_0":"You try to imitate the farewell salute of the influential high-ranking officers from Eventide, but accidentally get the posture wrong, and all of this is noticed by the girl.",
+      "FM_TokikoBarEvent_LEAVE_2_TEXT_1":"\"Sorry, Commander, but I think your salute posture might be a little off?\"",
+      "FM_TokikoBarEvent_LEAVE_2_TEXT_2":"Fortunately, the girl's relaxed laughter that followed proved that the impression you left wasn't too bad.",
+      "FM_TokikoBarEvent_LEAVE_2_TEXT_3":"\"If I really join, I can teach Commander some traditional etiquette—although it's all knowledge from books.\"",
+      "FM_TokikoBarEvent_LEAVE_2_TEXT_4":"\"So, finally, my name is Tokiko, farewell.\"",
+      "FM_TokikoBarEvent_LEAVE_2_TEXT_5":"After a light bow of farewell, the girl redressed in her hat and cloak, walked out of the booth, and soon disappeared from your sight.",
+
+      "FM_TokikoBarEvent_LEAVE_DONE":"leave",
+
+      #Tokiko Event (Intel)
+      "FM_TokikoBarEventIntel_Name":"The Tricolored Winged Reader",
+      "FM_TokikoBarEventIntel_NameCompleted":"The Tricolored Winged - Completed",
+      "FM_TokikoBarEventIntel_NameFailed":"The Tricolored Winged - Failed",
+
+      "FM_TokikoBarEventIntel_WAIT_BEFORE":"You exchanged contact information with Tokiko for deeper cooperation in the future, but currently, there's nothing noteworthy.",
+      "FM_TokikoBarEventIntel_WAIT_AFTER_P0":"You intercepted a long-distance broadcast from Luddic Path.",
+      "FM_TokikoBarEventIntel_WAIT_AFTER_P1":"The broadcast claims they have captured the Gensoukyou Manufacture Fleet commander Tokiko, who was recently responsible for suppression missions. They are using this as leverage, demanding the release of several Luddic leaders previously captured within a specified deadline.",
+      "FM_TokikoBarEventIntel_WAIT_AFTER_P2":"Your strategic analysts believe that, faced with this sudden act of terror and considering the strategic value of the captive, Gensoukyou Manufacture Fleet may temporarily struggle to decide whether to organize a rescue operation or engage in negotiations.",
+      "FM_TokikoBarEventIntel_WAIT_AFTER_P3":"Given Tokiko's mission nature and military background, the likelihood of a peaceful resolution is low. However, the low strategic value suggests that the captors' guard may also be relatively low.",
+
+      #"FM_TokikoBarEventIntel_WAIT_AFTER_P0":"你的情报官一反常态慌张的发来一条信息,告知你收到了一条来自卢德左径附带视频的远程广播.",
+      #"FM_TokikoBarEventIntel_WAIT_AFTER_P1":"你有些不安的接收了通讯,打开了视频. 但接下来的情况严重性超乎了你的想象.",
+      #"FM_TokikoBarEventIntel_WAIT_AFTER_P2":"画面中,那个不久前被你所帮助,与你谈笑,有着优雅双翼的少女,现在正在你的眼前,除了翅膀之外的肢体被紧紧的绑在椅子上.",
+      #"FM_TokikoBarEventIntel_WAIT_AFTER_P3":"紧接着,一个全身包裹在动力装甲内的左径士兵将少女的右翼强行扯开,启动了装甲的等离子切割器,将这片有着艳丽朱色羽毛的翅膀硬生生截断了一半.",
+      #"FM_TokikoBarEventIntel_WAIT_AFTER_P4":"无声的影片到此为止,剩下唯一的文字信息则简短的恐吓到:如果幻想工造无法在期限内释放先前被俘的左径头目,这个\"亵渎的生物\"将消逝于虚空当中.",
+      #"FM_TokikoBarEventIntel_WAIT_AFTER_P5":"在你震惊的同时,身边陪同的战略分析师小心翼翼的提醒你,幻想工造很可能暂时无法顾及这种突发的恐怖事件. 并且,由于{Tokiko}少尉候补生的幻想工造背景和较低的预期价值,她也绝无可能像被俘获的学院的研究员一样受到好生对待,事实上方才的视频就已经证实了这一点.",
+
+     "FM_TokikoBarEventIntel_WAIT_BulletPoint_0":"The situation has undergone a significant change",
+      "FM_TokikoBarEventIntel_WAIT_BulletPoint_1":"From any perspective, it's best to return to %s first before considering whether to rescue or not",
+
+      "FM_TokikoBarEventIntel_RESCUE_CrDes":"The interference from ground anti-air firepower has caused a decline in combat readiness",
+      "FM_TokikoBarEventIntel_RESCUE_P0":"Most of your subordinates and crew members are very excited about the success of the operation and the arrival of the girl.",
+      "FM_TokikoBarEventIntel_RESCUE_P1":"But on the other hand, despite rescuing the girl, you haven't had a proper meeting or conversation with her about the scheduled matters. Even after the action, not a single word was exchanged. However, just as you are still contemplating when and where to continue negotiations, the girl sends an invitation for a private conversation through the previous contact method.",
+
+      #"FM_TokikoBarEventIntel_RESCUE":"少女目前仍在医务室修养,但是你的医务官表示她的状况已经缓解了不少,甚至被削去部分的翅膀也有着奇迹般的复原迹象.",
+
+      "FM_TokikoButton":"Arrange a meeting with the girl",
+
+      "FM_TokikoBarEventIntel_FAILED_BulletPoint":"Recent reports indicate that Fantasia Forge has successfully rescued {Tokiko} from the Left Trail base. It seems there's no chance for you anymore",
+
+      #Tokiko Event (Final)
+      "FM_TokikoBarEventFinal_INIT_TEXT_0":"Five minutes before the scheduled time, you and the peculiar girl with blue and white hair almost simultaneously arrived at the meeting location.",
+      "FM_TokikoBarEventFinal_INIT_STAGE1":"Casually greet and initiate the conversation",
+
+      "FM_TokikoBarEventFinal_STAGE1_TEXT_0":"\"Hmm?\"",
+      "FM_TokikoBarEventFinal_STAGE1_TEXT_1":"Contrary to expectations, the young fleet officer seems slightly startled by your sudden greeting. However, upon seeing you, she quickly transitions from a startled girl back to the more familiar serious demeanor.",
+      "FM_TokikoBarEventFinal_STAGE1_TEXT_2":"\"Oh my, didn't expect to be startled like that.\"",
+      "FM_TokikoBarEventFinal_STAGE1_TEXT_3":"With a hint of helplessness, the girl says.",
+      "FM_TokikoBarEventFinal_STAGE1_TEXT_4":"Subsequently, the girl with elegant wings slightly adjusts her expression and attire. Similar to when you bid farewell, she bows with considerable traditional significance and a touch of formality.",
+      "FM_TokikoBarEventFinal_STAGE1_TEXT_5":"\"Being able to leave ahead of schedule is all thanks to Commander, thank you very much.\"",
+      "FM_TokikoBarEventFinal_STAGE1_STAGE2":"According to the plan, enter the room designated for the meeting with the girl to discuss the proposed joining situation",
+
+      "FM_TokikoBarEventFinal_STAGE2_TEXT_0":"Although in this post-collapse era, the living conditions and interior environments of most ship are modified or designed to meet only the most basic living needs, you finally found a room suitable for both tea-drinking and stargazing as the venue for the negotiation with the girl.",
+      "FM_TokikoBarEventFinal_STAGE2_TEXT_1":"Entering the room and taking a seat, the girl appears almost identical to what you previously saw on the planet. The only difference is perhaps the elegant dress that seems out of place in space or on a ship— a dress with traces of dust on the hem and droplets on the sleeves. Though clearly not from combat, these meager 'real' traces do not visibly alter the girl's overall fantastical charm. Instead, they accentuate the mystery and traditional aura she exuded during your first encounter.",
+      "FM_TokikoBarEventFinal_STAGE2_TEXT_2":"After once again marveling at the girl's mysterious charm, you prepare to get down to business. But just as you lower your head to contemplate how to broach the subject, the girl unexpectedly poses a question.",
+      "FM_TokikoBarEventFinal_STAGE2_TEXT_3":"\"Commander, have you had deeper suspicions about my identity and tried to thoroughly investigate them?\"",
+      "FM_TokikoBarEventFinal_STAGE2_TEXT_4":"You raise your head, and what you see is a girl looking at you with a face expressing seriousness and curiosity in a peculiar way.",
+      "FM_TokikoBarEventFinal_STAGE2_TEXT_5":"\"I'm curious.\"",
+      "FM_TokikoBarEventFinal_STAGE2_STAGE3A":"\"Even as a mercenary, I'm not one to be rude\"",
+      "FM_TokikoBarEventFinal_STAGE2_STAGE3B":"\"For things of interest, I never hesitate to spend time searching\"",
+      "FM_TokikoBarEventFinal_STAGE2_STAGE3C":"\"Why do you ask this?\"",
+
+      "FM_TokikoBarEventFinal_STAGE3A_TEXT_0":"\"It seems, Commander, that you are a person with certain principles.\"",
+      "FM_TokikoBarEventFinal_STAGE3A_TEXT_1":"The girl seems quite satisfied with this response.",
+      "FM_TokikoBarEventFinal_STAGE3A_TEXT_2":"\"Although almost all captains and fleet commanders in the sector are classified under the same identity, they are still different from each other.\"",
+      "FM_TokikoBarEventFinal_STAGE3A_TEXT_3":"\"Obviously, fierce interstellar raider, guerrilla fleets rising against oppression, scavengers with twisted minds, illicit traders smuggling goods, can all be defined as pirates, but...\"",
+      "FM_TokikoBarEventFinal_STAGE3A_TEXT_4":"The girl's gaze gradually becomes determined.",
+      "FM_TokikoBarEventFinal_STAGE3A_TEXT_5":"\"I hope, regardless of identity, one can uphold their own principles and beliefs.\"",
+      "FM_TokikoBarEventFinal_STAGE3A_TEXT_6":"\"So, let's continue discussing matters related to joining the fleet.\"",
+      "FM_TokikoBarEventFinal_STAGE3A_TEXT_7":"The girl, returning to her usual mode, smiles, indicating a return to negotiation matters. Confused and slightly shaken by the girl's declaration, you quickly return to reality upon hearing this.",
+
+      "FM_TokikoBarEventFinal_STAGE3B_TEXT_0":"\"Quite an interesting answer, Commander.\"",
+      "FM_TokikoBarEventFinal_STAGE3B_TEXT_1":"Judging from the girl's expression, she seems somewhat pleased.",
+      "FM_TokikoBarEventFinal_STAGE3B_TEXT_2":"\"Not a direct answer, but it provides a considerable amount of information. Although this kind of ambiguous response can sometimes lead to problems, it is undoubtedly a good answer.\"",
+      "FM_TokikoBarEventFinal_STAGE3B_TEXT_3":"\"But also because of such an answer, if no one is interested in oneself, there is often a feeling of being forgotten or a need for recognition... Dealing with these quirky individuals can be quite troublesome.\"",
+      "FM_TokikoBarEventFinal_STAGE3B_TEXT_4":"The girl half-jokingly complains, but the overall atmosphere still seems quite optimistic and friendly.",
+      "FM_TokikoBarEventFinal_STAGE3B_TEXT_5":"\"Fortunately, recent experiences made me realize that there are always more peculiar beings in the world who are interested in those with strange ideas.\"",
+      "FM_TokikoBarEventFinal_STAGE3B_TEXT_6":"\"So, let's discuss our common interests and consider Commander's proposal.\"",
+
+      "FM_TokikoBarEventFinal_STAGE3C_TEXT_0":"\"Answering a question with a question isn't a good habit, Commander.\"",
+      "FM_TokikoBarEventFinal_STAGE3C_TEXT_1":"Accompanied by a familiar but somewhat different, relaxed yet half-serious laughter, the girl continues",
+      "FM_TokikoBarEventFinal_STAGE3C_TEXT_2":"\"Suddenly asking strange questions is one of my bad habits...\"",
+      "FM_TokikoBarEventFinal_STAGE3C_TEXT_3":"\"But even from the most pragmatic perspective, people would never want others to forget them...\"",
+      "FM_TokikoBarEventFinal_STAGE3C_TEXT_4":"The girl gazes at the stars.",
+      "FM_TokikoBarEventFinal_STAGE3C_TEXT_5":"\"On a deeper level, people always wonder what kind of being they truly are, right?\"",
+      "FM_TokikoBarEventFinal_STAGE3C_TEXT_6":"\"I think this is something that can't be fully understood by oneself alone.\"",
+      "FM_TokikoBarEventFinal_STAGE3C_TEXT_7":"You feel that the girl seems to enter a somewhat self-centered state, but just as this thought enters your mind, she redirects her gaze back to you, smiling.",
+      "FM_TokikoBarEventFinal_STAGE3C_TEXT_8":"\"So, talk time ends here. Next, Commander, let's talk about your previous proposal?\"",
+
+      "FM_TokikoBarEventFinal_STAGE3ABC_STAGE4":"\"In terms of the number of words, you are really different from those guys who can sign contracts with just a few words.\"",
+
+      "FM_TokikoBarEventFinal_STAGE4_TEXT_0":"\"Of course, for me, being able to talk to interesting or trusted people is a rather hard-won treasure, you know?\"",
+      "FM_TokikoBarEventFinal_STAGE4_TEXT_1":"The girl's response is quite intriguing, and you sense a strange attitude mixed with both negativity and positivity.",
+      "FM_TokikoBarEventFinal_STAGE4_TEXT_2":"\"I may not be human, but I'm very curious about the outside world and ordinary people. After all, sometimes, records in books or databases can't compare to real-life examples.\"",
+      "FM_TokikoBarEventFinal_STAGE4_TEXT_3":"Underneath the girl's slightly playful tone, you are a bit perplexed by the contrast that has been subtly emphasized.",
+      "FM_TokikoBarEventFinal_STAGE4_TEXT_4":"However, it seems to matter little. The girl's smile, observed after she gauges your reaction, and the still dream-like wings, delicately eliminate the temporary sense of otherness, quickly bringing you back to the normal rhythm.",
+      "FM_TokikoBarEventFinal_STAGE4_STAGE5":"\"If you're not human, then you must be a youkai, right?\"",
+
+      "FM_TokikoBarEventFinal_STAGE5_TEXT_0":"\"Well, although conceptually so, saying it's a youkai, in this era, there are still tangible life forms, so they still get injured like humans. But in terms of physical qualities, compared to humans, there are still some advantages.\"",
+      "FM_TokikoBarEventFinal_STAGE5_TEXT_1":"The girl calmly explains her race to you, even though you didn't directly inquire about this information. However, she seems quite willing to share.",
+      "FM_TokikoBarEventFinal_STAGE5_TEXT_2":"\"In general, that's all the information. I told you for personal interest, just like that.\"",
+      "FM_TokikoBarEventFinal_STAGE5_TEXT_3":"Following this unexpected excitement, the girl returns to her previous seriousness and a more familiar calm. You finally seize the opportunity to start negotiating the terms of her joining.",
+      "FM_TokikoBarEventFinal_STAGE5_TEXT_4":"Everything finally returns to normal.",
+      "FM_TokikoBarEventFinal_STAGE5_STAGE6":"Continue",
+
+      "FM_TokikoBarEventFinal_STAGE6_TEXT_0":"Compared to the previous conversation, the normal negotiation goes unusually smoothly, and the results obtained even exceed your expectations. The girl readily agrees to a long-term contract, unlike those seasoned mercenaries who only allow short-term agreements.",  
+      "FM_TokikoBarEventFinal_STAGE6_TEXT_1":"However, in response, as a condition, the contract terms ultimately include some minor requests based on the girl's personal interests, such as a small supply of traditional paper and fabric.",  
+      "FM_TokikoBarEventFinal_STAGE6_TEXT_2":"But in any case, this peculiar story comes to a temporary end.",  
+      "FM_TokikoBarEventFinal_STAGE6_TEXT_3":"\"However, for a new story, it seems this is just the beginning.\"",  
+      "FM_TokikoBarEventFinal_STAGE6_DONE":"End",   
+
+    },
+
+    "condition":{
+      "FM_HazardRate":"Hazard Rates {%s}",
+      "FM_PhantomFactory":"Gensoukyou Science"
+    },
+
+    "skill":{
+
+      "FM_ReimuSkillInfo0":"% Increase in speed (effective when piloting Destroyers and Frigates)",
+      "FM_ReimuSkillInfo1":"% Damage to Ships Cruiser-class and above (effective when piloting Destroyers and Frigates)",
+      "FM_ReimuSkillInfo2":"% Increase in Armor and Hull points for all types of ships.",
+
+      "FM_TokikoSkillInfo0":"Deployment points (need to be assigned to ships).)",
+
+      #"FM_ShiledExpandSkillInfo":"为所有带有护盾的幻想工造军用舰船增加 +%s 的护盾角度(最大为 %s)",
+      "FM_ShiledExpandSkillInfo":"Increase the shield arc by +%s for all combat ships (max %s)",
+      "FM_ShiledExpandSkillDes":"Salamander Shield",
+      #"FM_ShiledExpandSkillItemLable":"幻想工造军用舰船",
+      #"FM_ShiledExpandSkillItemTooltip":"当前所有舰队中幻想工造军用舰船的部署值",
+
+      "FM_PriceOfLifeInfo":"Value of Life",
+      "FM_PriceOfLifeDes":"While in comissioned to a faction, receive an additional salary every month.",
+
+      "FM_FUMOSInfo0":"Shield expansion speed and turning speed",
+      "FM_FUMOSInfo1":"Shield's effectiveness to missile and beam damage",
+      "FM_FUMOSInfo2":"When the shield taken kinetic damage greater than %s, the excess damage will be converted to %s of its original value.",
+
+      "FM_TheFlashInfo0":"When the ship is overloaded, flux dissipation becomes %s, and active flux dissipation rate increased by %s",
+      "FM_TheFlashInfo1":"Damage taken by the ship's hull",
+
+      "FM_WindOfGensokyoInfo0":"Each cruiser or capital ship gains a maximum speed boost for the first %s seconds after entering the combat",
+      "FM_WindOfGensokyoInfo1":"Cruiser's maximum speed +%s, Capital ship's maximum speed +%s",
+      "FM_WindOfGensokyoStateTitle":"Illusionary Dominance",
+      "FM_WindOfGensokyoStateData":"Remaining time of speed bonus",
+
+      "FM_SalvageCriticInfo":"Increase total salvage yield by %s, but decrease non-rare salvage output by %s. No effect on post-battle salvage and fuel salvage",
+
+
+
+    },
+
+    "person":{
+      "FM_Reimu_Last":"Hakurei",
+      "FM_Reimu_First":"Reimu",
+      "FM_ReimuId":"Hakurei_Reimu",
+      "FM_TokikoId":"Tokiko",
+      "FM_KutakaId":"Kutaka",
+    },
+
+    # some other information maybe useful for translation (mainly Vanilla Weapons/Systems may appear in description.csv)
+    
+    # 瞬发 PD -> Brust PD Laser
+    # 相位长矛 -> Phase Lance
+    # 战术激光炮 -> Tactical Laser
+    # 引力子束 -> Graviton Beam 
+    # 星尘投射器 -> Stardust Caster
+    # 主动诱饵 -> Active Flare
+    # 反物质冲击波 -> Antimatter Blaster
+    # 赛博导弹 -> Sabot SRM
+    # 离子脉冲 -> Ion Pulser
+    # 烈焰驱动器 -> Burn Drive 
+    # 闪现 -> Phase Skimmer
+    
+
+
+}
