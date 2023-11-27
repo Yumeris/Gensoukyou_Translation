@@ -44,7 +44,7 @@ OR
 ,,,,,,
 # factions,,,,,,
 relLevelNeutralFM,RelationshipLevelDesc,"$faction.rel == NEUTRAL
-$faction.id == fantasy_manufacturing",FireAll RelLevelMoreDescription,"Like any other human being, Gensoukyou Manufacture believes your relationship have little to do with them and everything is done according to common sense, but its enough for normal cooperation.",,
+$faction.id == fantasy_manufacturing",FireAll RelLevelMoreDescription,"Like any other human being, Gensoukyou Manufacture believes your relationship have little to do with them and everything is done according to common sense, but it's enough for normal cooperation.",,
 relLevelFavorableFM,RelationshipLevelDesc,"$faction.rel == FAVORABLE
 $faction.id == fantasy_manufacturing",FireAll RelLevelMoreDescription,"Gensoukyou Manufacture sees you as a potentially important partner and would like to deepen their relationship with you further, you're be able to receive more relevant news and some free snacks.",,
 relLevelWelcomingFM,RelationshipLevelDesc,"$faction.rel == WELCOMING
