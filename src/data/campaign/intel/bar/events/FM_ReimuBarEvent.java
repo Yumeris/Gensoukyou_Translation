@@ -65,15 +65,26 @@ public class FM_ReimuBarEvent extends BaseBarEventWithPerson {
     }
 
     public boolean shouldShowAtMarket(MarketAPI market) {
-        if (!super.shouldShowAtMarket(market)) return false;
-        if (!FM_Person.hasMetCharacter(I18nUtil.getString("person","FM_TokikoId")))return false;
-        if (Global.getSector().getPlayerFleet().getFleetData().getOfficerData(FM_Person.getPerson(I18nUtil.getString("person","FM_TokikoId")))==null)return false;
-        if (!Global.getSector().getMemoryWithoutUpdate().contains(FM_ContactWithTokiko.TokikoKey)) return false;
-        if (!(Boolean) Global.getSector().getMemoryWithoutUpdate().get(FM_ContactWithTokiko.TokikoKey)) return false;
+        if (!super.shouldShowAtMarket(market)) {
+            return false;
+        }
+        if (!FM_Person.hasMetCharacter(I18nUtil.getString("person","FM_TokikoId"))) {
+            return false;
+        }
+        if (Global.getSector().getPlayerFleet().getFleetData().getOfficerData(FM_Person.getPerson(I18nUtil.getString("person","FM_TokikoId")))==null) {
+            return false;
+        }
+        if (!Global.getSector().getMemoryWithoutUpdate().contains(FM_ContactWithTokiko.TokikoKey)) {
+            return false;
+        }
+        if (!(Boolean) Global.getSector().getMemoryWithoutUpdate().get(FM_ContactWithTokiko.TokikoKey)) {
+            return false;
+        }
         if (!market.getFactionId().equals("fantasy_manufacturing")) {
             return false;
         }
-        return Global.getSector().getPlayerStats().getLevel() >= 0 || DebugFlags.BAR_DEBUG;
+        boolean b = Global.getSector ().getPlayerStats ().getLevel () >= 0 || DebugFlags.BAR_DEBUG;
+        return b;
     }
 
     @Override

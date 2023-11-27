@@ -72,8 +72,12 @@ public class FM_ContactWithTokiko extends BaseBarEventWithPerson {
     }
 
     public boolean shouldShowAtMarket(MarketAPI market) {
-        if (!super.shouldShowAtMarket(market)) return false;
-        if (DebugFlags.BAR_DEBUG)return true;
+        if (!super.shouldShowAtMarket(market)) {
+            return false;
+        }
+        if(DebugFlags.BAR_DEBUG) {
+            return true;
+        }
 //        if (!market.getFactionId().equals("fantasy_manufacturing")) {
 //            return false;
 //        }
@@ -82,9 +86,14 @@ public class FM_ContactWithTokiko extends BaseBarEventWithPerson {
 //        if (market.getPlanetEntity() != null){
 //            if (!market.getPlanetEntity().getId().equals("FM_planet_hakurei"))return false;
 //        }
-        if (!market.getPrimaryEntity().getId().equals("FM_planet_hakurei")) return false;
-        if (FM_Person.hasMetCharacter(I18nUtil.getString("person","FM_TokikoId")))return false;
-        return Global.getSector().getPlayerStats().getLevel() >= 0 || DebugFlags.BAR_DEBUG;
+        if(!market.getPrimaryEntity().getId().equals("FM_planet_hakurei")) {
+            return false;
+        }
+        if(FM_Person.hasMetCharacter(I18nUtil.getString("person","FM_TokikoId"))) {
+            return false;
+        }
+        boolean b = Global.getSector ().getPlayerStats ().getLevel () >= 0 || DebugFlags.BAR_DEBUG;
+        return b;
     }
 
     protected PersonAPI pather;

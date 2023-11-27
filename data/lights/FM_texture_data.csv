@@ -34,6 +34,8 @@ FM_Shanghai,ship,,1.5,normal,graphics/shaders/normal/ships/FM_Shanghai_normal.pn
 FM_Penglai,ship,,1.5,normal,graphics/shaders/normal/ships/FM_Penglai_normal.png
 FM_Tatara_drone,ship,,1.5,normal,graphics/shaders/normal/ships/FM_Tatara_drone_normal.png
 FM_BBA,ship,,1.5,normal,graphics/shaders/normal/ships/FM_BBA_normal.png
+xyphos_FM,ship,,1.5,normal,graphics/shaders/normal/ships/sarissa_fm_normal.png
+sarissa_FM,ship,,1.5,normal,graphics/shaders/normal/ships/xyphos_fm_normal.png
 ,,,,,
 FM,turretcoversmall,,1.5,normal,graphics/shaders/normal/covers/FM_cover_turret_small_normal.png
 FM,turretcovermedium,,1.5,normal,graphics/shaders/normal/covers/FM_cover_turret_medium_normal.png
@@ -175,6 +177,9 @@ FM_Shanghai,ship,,,material,graphics/shaders/material/ships/FM_Shanghai_material
 FM_Penglai,ship,,,material,graphics/shaders/material/ships/FM_Penglai_material.png
 FM_Tatara_drone,ship,,,material,graphics/shaders/material/ships/FM_Tatara_drone_material.png
 FM_BBA,ship,,,material,graphics/shaders/material/ships/FM_BBA_material.png
+xyphos_FM,ship,,,material,graphics/shaders/material/ships/sarissa_fm_material.png
+sarissa_FM,ship,,,material,graphics/shaders/material/ships/xyphos_fm_material.png
+,,,,,
 ,,,,,
 FM,turretcoversmall,,,material,graphics/shaders/material/covers/FM_cover_turret_small_material.png
 FM,turretcovermedium,,,material,graphics/shaders/material/covers/FM_cover_turret_medium_material.png
@@ -316,6 +321,8 @@ FM_Shanghai,ship,,,surface,graphics/shaders/surface/ships/FM_Shanghai_surface.pn
 FM_Penglai,ship,,,surface,graphics/shaders/surface/ships/FM_Penglai_surface.png
 FM_Tatara_drone,ship,,,surface,graphics/shaders/surface/ships/FM_Tatara_drone_surface.png
 FM_BBA,ship,,,surface,graphics/shaders/surface/ships/FM_BBA_surface.png
+xyphos_FM,ship,,,surface,graphics/shaders/surface/ships/sarissa_fm_surface.png
+sarissa_FM,ship,,,surface,graphics/shaders/surface/ships/xyphos_fm_surface.png
 ,,,,,
 FM,turretcoversmall,,,surface,graphics/shaders/surface/covers/FM_cover_turret_small_surface.png
 FM,turretcovermedium,,,surface,graphics/shaders/surface/covers/FM_cover_turret_medium_surface.png

@@ -7,7 +7,7 @@ She's definitely an ace, but I don't think her overly intuitive personality guar
 ,,,,,,,,,,,
 # LEADERSHIP,,,,,,,,,,,
 #FM_Tokiko_skill,无名有翼的参谋,100,5,并非所有学员都有足够的时间精力与天赋允许她们在这短短的学院生涯中成为顶尖的指挥官，但我们仍能教给她们相应的方法并期待着时间的魔力使她们蜕变。,未署名的幻想工造空间战术学院教员,TRUE,TRUE,,"npc_only, player_only",graphics/icons/skills/FM_Tokiko_skill.png,
-FM_Tokiko_skill,Unnamed Winged Advisor,100,5,"Of course, there are still many small problems that need to be resolved with these plans. I hope everything goes well. . . ",Access to certain personal records is granted with permission from “Unnamed” Tokiko Herself.,TRUE,TRUE,,"npc_only, player_only",graphics/icons/skills/FM_Tokiko_skill.png,
+FM_Tokiko_skill,Unnamed Winged Advisor,100,5,"Clearly, these plans still have many small issues that needs to be resolved, let's hope everything goes well.....","Personal record of ""Unnamed"" Tokiko, accessed with her permission.",TRUE,TRUE,,"npc_only, player_only",graphics/icons/skills/FM_Tokiko_skill.png,
 ,,,,,,,,,,,
 ,,,,,,,,,,,
 # TECHNOLOGY,,,,,,,,,,,

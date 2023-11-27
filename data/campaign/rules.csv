@@ -6,9 +6,9 @@ greetingFMFriendly,OpenCommLink,"$faction.id == fantasy_manufacturing
 $faction.friendlyToPlayer","$menuState = fleetConvMain 0
 FireAll PopulateOptions","""Welcome to Gensoukyou Manufacture!... thats all to say right?""
 OR
-""A future where humanity and oddities coexist in harmony is upon us, and you and I have the privilege of being its first beneficiaries.. ""
+""A future where humanity and mysticism coexist in harmony is upon us, and you and I have the privilege of being its first beneficiaries.. ""
 OR
-"".. Its difficult to be lover of oddities, right?"" for some reason $personName started talking about love, its shocking and a little bit embrassing.
+"".. Its difficult to have a youkai lover, right?"" for some reason $personName started talking about their love story, its shocking and a little bit embrassing.
 OR
 ""Hello there, this is $personName. What can i help you with?""",,
 greetingFMHostileWeaker,OpenCommLink,"$faction.id == fantasy_manufacturing
@@ -17,7 +17,7 @@ $relativeStrength < 0",$ignorePlayerCommRequests = true 1,"""I'm Ready to escape
 OR
 ""So, you're behind this incident?""$personRank sighed and disconnected the comm in frustration.
 OR
-""I-L-L-R-U-N-!""",cutCommLink:Cut the comm link,
+""I-L-L-R-U-N-A-W-A-Y!""",cutCommLink:Cut the comm link,
 greetingFMHostileWeakerDefiant,OpenCommLink,"$faction.id ==  fantasy_manufacturing
 $faction.hostileToPlayer
 $relativeStrength < 0
@@ -35,9 +35,9 @@ greetingFMNeutral,OpenCommLink,"$faction.id == fantasy_manufacturing
 $faction.neutralToPlayer","$menuState = fleetConvMain 0
 FireAll PopulateOptions","""Heaven Above, may I ask what you want?""
 OR
-""Despite the company name, we're not all that materialistic...""$personName saw your longstanding doubt and answered it.
+""Although our name sounds like a megacorp, we're not all that bourgeoisie...""$personName saw through your longstanding doubt and answered it.
 OR
-""I opened the comm link...I don't think it's an ordinary person after all.... ""
+""Opened the comm link...I don't think you are an ordinary person after all.... ""
 OR
 ""Even in the Persean sector, don't always be bound by common sense.""",,
 #END greetings,,,,,,
@@ -62,7 +62,7 @@ relLevelHostileFM,RelationshipLevelDesc,"$faction.rel == HOSTILE
 $faction.id == fantasy_manufacturing",FireAll RelLevelMoreDescription,"It is rare for Non-Luddic believer to receive this kind of treatment, Gensoukyou Manufacture believes you are bad enough that the inhabitants inside and outside the barrier will cut you in half. However, since these people dont have a desire to intervene, they aren't really motivated to  hunting you down. Therefore, there is no danger unless you take the initiative to approach their controlled area.",,
 relLevelVengefulFM,RelationshipLevelDesc,"$faction.rel == VENGEFUL
 $faction.id == fantasy_manufacturing",FireAll RelLevelMoreDescription,"Althought it appear to be calm, your action has basically hit the bottom line of Gensoukyou Manufacture, and your treatment has now been filed as a classic case requiring ""maximum restraint"".
-Unfortunately, all of your previously acquired Gensoukyou Products through legitimate way somehow become useless, and even your snack foods you had stockpiled have somehow been crushed to pieces and are no longer crunchy at all.",,
+Unfortunately, all of your previously acquired Gensoukyou Products through legitimate way somehow become useless, and even the snacks you had stockpiled have somehow been crushed to pieces and are no longer crunchy at all.",,
 relLevelNeutralFM_CommissionedFM,RelLevelMoreDescription,"$faction.rel == NEUTRAL
 $faction.id == fantasy_manufacturing 
 $player.commissionFactionId == fantasy_manufacturing",,"You seem to have forgotten about the employment relationship with each other, but it seems like that's no big deal...",,
@@ -80,19 +80,19 @@ $faction.id == fantasy_manufacturing
 $player.commissionFactionId == fantasy_manufacturing",,"To reach such heights as a Captain for Hire is a rarity, even in Gensoukyou Manufacture, and the fleet people you've worked with have submitted a report to the higher-ups, and your name now appears fairly high on the list of planned large expeditionary fleets.",,
 relLevelNeutralFM_Tokiko,RelLevelMoreDescription,"$faction.rel == NEUTRAL
 $faction.id == fantasy_manufacturing 
-FM_OfficerCheck FM_TokikoOfficerTag",,"""Gensoukyou Manifacture's attitude? Is Captain-san interested in this kind of thing? Well... At the moment, it just like towards any ordinary people.""
+FM_OfficerCheck FM_TokikoOfficerTag",,"""Gensoukyou Manifacture's attitude? Is Captain-san interested in this kind of thing? Well... At the moment, they just treat you like any ordinary people.""
 —— ""Unnamed"" Tokiko",,
 relLevelFavorableFM_Tokiko,RelLevelMoreDescription,"$faction.rel == FAVORABLE
 $faction.id == fantasy_manufacturing 
-FM_OfficerCheck FM_TokikoOfficerTag",,"""It's good trying to build good relationships, but personally sometimes i am finding this process to be difficult... perhaps because sometimes i'd tend to complicate it myself.""
+FM_OfficerCheck FM_TokikoOfficerTag",,"""It's good trying to build good relationships, but personally sometimes i am finding this process to be difficult... perhaps because sometimes i'd tend to make a mess of it myself.""
 —— ""Unnamed"" Tokiko",,
 relLevelWelcomingFM_Tokiko,RelLevelMoreDescription,"$faction.rel == WELCOMING
 $faction.id == fantasy_manufacturing 
-FM_OfficerCheck FM_TokikoOfficerTag",,"""I am not sure if it's due technology advancing nor is it influeced by the world, but it seems the sector relations are more intuitive than personal relations.. oh, I almost forgot.. Congratulations, Captain-san, you've have achieved higher level of cooperations?""
+FM_OfficerCheck FM_TokikoOfficerTag",,"""I am not sure if it's due advanced technology or some sort of high power in the world, but it seems the sector relations are a lot more intuitive than personal relations.. oh, I almost forgot.. Congratulations on reaching a new stage of cooperation, Captain-san.""
 —— ""Unnamed"" Tokiko",,
 relLevelFriendlyFM_Tokiko,RelLevelMoreDescription,"$faction.rel == FRIENDLY
 $faction.id == fantasy_manufacturing 
-FM_OfficerCheck FM_TokikoOfficerTag",,"""Friend? does that word really mean a lot?""
+FM_OfficerCheck FM_TokikoOfficerTag",,"""Friendly? Does this word really mean this much?""
 —— ""Unnamed"" Tokiko",,
 relLevelCooperativeFM_Tokiko,RelLevelMoreDescription,"$faction.rel == COOPERATIVE
 $faction.id == fantasy_manufacturing 

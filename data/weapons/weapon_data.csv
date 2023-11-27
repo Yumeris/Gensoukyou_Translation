@@ -31,7 +31,7 @@ On impact, has %s chance to create an emp arc dealing %s of the weapon's damage.
 Shining Needle Torpedo,FM_Opposition,1,,300,1200,,1000,,30,10,4,2,,,ENERGY,0,,0,5,1,,0,0,0,0,,900,75,3.5,300,,,,"strike8, missile8, rare_bp, FM_weapon",,Gensoukyou Project,,Torpedo,Fast,Aiming Stages Only,,,,,,,TRUE,1002
 Shining Needle Torpedo (Fighter),FM_Opposition_fighter,1,,300,1200,,1000,,30,10,4,1,,,ENERGY,0,,0,5,1,,0,0,0,0,,900,75,3.5,300,,,"SYSTEM, SHOW_IN_CODEX","no_sell, no_drop",,Gensoukyou Project,,Torpedo,Fast,Aiming Stages Only,,,,,,,TRUE,1002
 Sky Serpent MRM Pods,FM_SkySerpent_S,0,,300,3000,,750,0,10,20,5,8,,,HIGH_EXPLOSIVE,0,,0,2,1,0,0,0,0,,,500,300,6,100,,,"DO_NOT_AIM, CONSERVE_4","missile9, FM_weapon, FM_com",,Gensoukyou Project,,Anti Armor,Very Fast,,,,"This missile does not explode on impact, instead it'll will deploy a %s in target area, dealing area damage equal to %s of missile damage every %s second.",danmaku barrage | 10% | 0.1s,,,TRUE,1008
-Blossom Rocket Silo,FM_Petal_S,0,,700,1500,,200,0,5,30,7,40,,,ENERGY,0,,0,2.5,5,0.1,0,0,0,0,,800,50,3.75,100,,,CONSERVE_4,"rocket7, strike0, FM_weapon",,,,General,Very Fast,None,,,"Every %s rocket will switch the damage type, indicated by different trail colors.
+Blossom Rocket Silo,FM_Petal_S,0,,700,1500,,200,0,5,30,7,40,,,ENERGY,0,,0,2.5,5,0.1,0,0,0,0,,800,50,3.75,100,,,CONSERVE_4,"rocket7, strike0, FM_weapon",,Gensoukyou Project,,General,Very Fast,None,,,"Every %s rocket will switch the damage type, indicated by different trail colors.
 
 %s coloured trail change damage to %s,
 
@@ -43,7 +43,7 @@ Blossom Rocket Silo,FM_Petal_S,0,,700,1500,,200,0,5,30,7,40,,,ENERGY,0,,0,2.5,5,
 
 weapon spread in each of the situations above will progressively decrease.",5|Blue|200 Energy|Green|200 Kinetic|Red|200 HE|Yellow|400 Fragmentation,,,,11
 ,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,
-Blossom Rocket Silo (Fighter),FM_Petal_S_fighter,0,,300,1500,,200,,5,30,7,20,,,ENERGY,0,,0,0.125,1,0.125,0,0,0,0,,800,50,3.75,50,,,"SYSTEM, SHOW_IN_CODEX","no_sell, no_drop",,,,General,Very Fast,None,,,"Every %s rocket will switch the damage type, indicated by different trail colors.
+Blossom Rocket Silo (Fighter),FM_Petal_S_fighter,0,,300,1500,,200,,5,30,7,20,,,ENERGY,0,,0,0.125,1,0.125,0,0,0,0,,800,50,3.75,50,,,"SYSTEM, SHOW_IN_CODEX","no_sell, no_drop",,Gensoukyou Project,,General,Very Fast,None,,,"Every %s rocket will switch the damage type, indicated by different trail colors.
 
 %s coloured trail change damage to %s,
 
