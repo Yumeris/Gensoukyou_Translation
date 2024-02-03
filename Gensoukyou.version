@@ -6,8 +6,8 @@
 	{
 		"major":0,
 		"minor":8,
-		"patch":1_rc1_t9,
+		"patch":1_rc1_t10,
 	},
-	"starsectorVersion":"0.96a-RC10",
+	"starsectorVersion":"0.97a-RC6",
 	"directDownloadURL":"https://github.com/Yumeris/Gensoukyou_Translation/releases/latest/download/Gensoukyou_0.8.1_rc1.zip",
 }

@@ -8,7 +8,7 @@
 
 "description":"Add Gensoukyou Manufacture Faction to the sector. \nNote: This mod contains a considerable amount of content related to the Touhou Project series by Team Shanghai Alice, as well as a fan creations. \nFor the list of credits, please refer to special_thanks.txt.", # required friendly mod description
 
-"gameVersion":"0.96a", # required starsector version this was designed for
+"gameVersion":"0.97a-RC6", # required starsector version this was designed for
 
 "dependencies": [
     {"id": "lw_lazylib", "name": "LazyLib"},
